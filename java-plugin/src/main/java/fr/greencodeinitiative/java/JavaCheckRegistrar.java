@@ -31,7 +31,6 @@ import fr.greencodeinitiative.java.checks.AvoidSetConstantInBatchUpdate;
 import fr.greencodeinitiative.java.checks.AvoidSpringRepositoryCallInLoopCheck;
 import fr.greencodeinitiative.java.checks.AvoidStatementForDMLQueries;
 import fr.greencodeinitiative.java.checks.AvoidUsageOfStaticCollections;
-import fr.greencodeinitiative.java.checks.AvoidUsingGlobalVariablesCheck;
 import fr.greencodeinitiative.java.checks.FreeResourcesOfAutoCloseableInterface;
 import fr.greencodeinitiative.java.checks.IncrementCheck;
 import fr.greencodeinitiative.java.checks.InitializeBufferWithAppropriateSize;
@@ -67,7 +66,6 @@ public class JavaCheckRegistrar implements CheckRegistrar {
             UnnecessarilyAssignValuesToVariables.class,
             OptimizeReadFileExceptions.class,
             InitializeBufferWithAppropriateSize.class,
-            AvoidUsingGlobalVariablesCheck.class,
             AvoidSetConstantInBatchUpdate.class,
             FreeResourcesOfAutoCloseableInterface.class,
             AvoidMultipleIfElseStatement.class
